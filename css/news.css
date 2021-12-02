@@ -1,0 +1,221 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Teko', sans-serif;
+    line-height: 1.25;
+    border: 0;
+    margin: 0;
+    background-color: #262420;
+}
+
+.news {
+    margin: 0;
+    padding: 0 32px;
+    background-color: white;
+}
+.news_01_layout {
+    padding: 16px 100px 0;
+    margin: 0 250px 0;
+}
+.news_layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news_item {
+    width: 350px;
+    height: 640px;
+    margin: 8px;
+    border: 1px solid darkred;
+    background-color: white;
+}
+.news_p {
+    margin: 0 16px;
+}
+.news_p_p{
+    padding-bottom: 16px;
+}
+.images_news {
+    width: 345px;
+}
+.font_color {
+    color: #ef5122;
+}
+.font_news {
+    color: white;
+}
+.img_nd_01 {
+    width: 650px;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    border-bottom: 1px solid #eeeeee;
+    height: 140px;
+    background-color: white;
+}
+.logo{
+    width: 33%;
+    float: left;
+}
+.toplinks{
+    float: right;
+}
+.toplinks li{
+    float: left;
+    list-style: none;
+
+}
+#pin{
+    margin-top: -5px;
+    margin-left: 5px;
+}
+#twi{
+    margin-top: -4px;
+    margin-left: -5px;
+}
+#fb{
+    margin-left: 10px;
+}
+.nav{
+    border-bottom: 1px solid #eeeeee;
+    background-color: #a3967e;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    padding-left: 10%;
+    color: white;
+}
+.main img{
+    opacity: 0.6;
+    position: relative;
+    z-index: 1;
+}
+.main .title{
+    font-size: 60px;
+    color: white;
+    padding-left: 18%;
+    margin-top: -600px;
+    float: left;
+    position: absolute;
+    z-index: 2;
+}
+.main .title p{
+    font-size: 35px;
+    padding-left: 20px;
+    margin-left: 190px;
+    padding-top: 7px;
+    background-color: #f56331;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.race_info{
+    float: left;
+    background-color: #a3967e;
+    width: 100%;
+    height: 200px;
+    padding-left: 8%
+}
+.race_info ul li{
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.main .details{
+    float: left;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+.main .details li{
+    list-style: none;
+    float: left;
+    margin-left: 175px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.registration{
+    float: left;
+    background-color: white;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 50px;
+}
+.registration h1{
+    color: #f56331;
+}
+.registration p{
+    width: 40%;
+}
+.fee1{
+    float: left;
+    width: 200px;
+    background-color: #efebe5;
+    font-size: 25px;
+    line-height: 0.2;
+    padding: 20px;
+    text-align: center;
+    margin-left: -600px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.fee2{
+    float: left;
+    width: 200px;
+    background-color: #efebe5;
+    font-size: 25px;
+    line-height: 0.2;
+    padding: 20px;
+    text-align: center;
+    margin-left: -300px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.last{
+    background-color: #f56331;
+    width: 150px;
+    height: 40px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.volunteer{
+    color: white;
+    margin-left: 8%;
+    font-size: 50px;
+    margin-top: -500px;
+    position: absolute;
+    z-index: 2;
+}
+.register_volunteer{
+    background-color: #f56331;
+    width: 220px;
+    margin-left: 40%;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 7px;
+}
