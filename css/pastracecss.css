@@ -1,17 +1,146 @@
-
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Teko', sans-serif;
-    background-color: black;
-    font-size: 24px;
+    line-height: 1.25;
+    border: 0;
+    margin: 0;
+    background-color: #262420;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    border-bottom: 1px solid #eeeeee;
+    height: 140px;
+    background-color: white;
+}
+.logo{
+    width: 35%;
+    float: left;
+}
+.header_img{
+    float: left;
+}
+.toplinks{
+    float: right;
+}
+.toplinks li{
+    float: left;
+    list-style: none;
+}
+.toplinks li:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+#pin{
+    margin-top: -5px;
+    margin-left: 5px;
+}
+#twi{
+    margin-top: -4px;
+    margin-left: -5px;
+}
+#fb{
+    margin-left: 10px;
+}
+.nav{
+    border-bottom: 1px solid #eeeeee;
+    background-color: #a3967e;
+}
+.nav a{
+    color: white;
+}
+.nav a:hover{
+    border-bottom: white solid 1px;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 80px;
+    padding-left: 6%;
 
 }
+.nav li:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.footer{
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+.logo2{
+    float: left;
+    width: 15%;
+    margin-top: 25px;
+}
+.address{
+    float: left;
+    font-size: 25px;
+}
+.more_info{
+    float: left;
+    font-size: 18px;
+    margin-left: 120px;
+    text-align: center;
+}
+.more_info a{
+    color: black;
+}
+.more_info a:hover{
+    border-bottom: 1px solid black;
+}
+.toplinks2{
+    float: right;
+}
+.toplinks2 li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.toplinks2 li:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+#pin2{
+    margin-top: 74px;
+}
+#twi2{
+    margin-top: 74px;
+    margin-left: 20px;
+}
+
+
+/* Phần thân trang Past Race */
+
+
 .maincolumm{
     width: 1200px;
-    background-color: snow;
+    background-color: white;
+    display: block;
     margin: 0 auto;
-    margin-top: 670px;
-
+    height: 100%;
 }
+
 .round1{
     margin-top: 10px;
     position: relative;
@@ -19,12 +148,15 @@ body{
     height: 250px;
     border-top: black dashed;
 }
+
+
 .anh{
     position: absolute;
     left: 0;
     top: 0;
     width: 250px;
     height: 100%;
+    text-align: center;
 }
 .tieude{
     position: absolute;
@@ -32,27 +164,57 @@ body{
     top: 0;
     height: 100%;
     width: 950px;
+    padding-left: 30px;
 }
+/*
 img{
     width: 180px;
     height: 180px;
     padding-top: 15px;
     padding-left: 15px;
 }
+*/
+
+.ptrace:hover{
+
+    transition-delay: 0s;
+    transition-duration: 1.5s;
+    transition-property: all;
+    transition-timing-function: linear;
+    transform: scale(1.4);
+}
 h1{
-    color: chocolate;
-    padding-left: 20px;
+    color: #ef5122;
+    padding-left: 30px;
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 50px;
 }
 h2{
     margin-bottom: 0px;
-    color: chocolate;
+    color: #292929;
     margin-top: 5px;
+    font-size: 40px;
 }
+
 p{
-    margin-top: -20px;
+    font-size: 30px;
+    margin-top: -15px;
 }
-.detailbutton{
-    background-color: red;
+
+.button{
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
     font-size: 20px;
-    padding: ;
+    padding: 10px 35px;
+    color: #ffffff !important;
+    border-radius: 5px;
+    background: #292929;
+    border: 1px solid #9B6A1D;
+    transition: 0.4s;
+}
+.button:hover{
+    background: #ef5122;
 }
