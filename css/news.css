@@ -46,9 +46,10 @@ body{
 }
 .font_color {
     color: #ef5122;
+    font-weight: 700;
 }
 .font_news {
-    color: white;
+    color: #ef5122;
 }
 .img_nd_01 {
     width: 650px;
