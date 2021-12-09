@@ -83,13 +83,17 @@ img{
 }
 /*------------------------------COPY ĐẾN ĐÂY------------------------------*/
 
-.main img{
+.main .intro_img,.volunteer_img{
     opacity: 0.6;
     position: relative;
     z-index: 1;
 }
 .main .intro_img{
     height: 800px;
+}
+.main p:hover{
+    transform: scale(1.1);
+    transition: 300ms;
 }
 .main .title{
     font-size: 60px;
@@ -118,7 +122,9 @@ img{
     background-color: #a3967e;
     width: 100%;
     height: 200px;
-    padding-left: 8%
+    padding-left: 8%;
+    border-top: 1px solid #eeeeee;
+
 }
 .race_info ul li{
     list-style: none;
@@ -133,6 +139,24 @@ img{
     float: left;
     margin-top: -100px;
     margin-left: 40px;
+    position: relative;
+    z-index: 2;
+}
+.main .details_1:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+.main .details_2:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+.main .details_3:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+.main .details_4:hover{
+    transform: scale(1.1);
+    transition: 300ms;
 }
 .main .details li{
     list-style: none;
@@ -168,6 +192,7 @@ img{
     margin-left: -600px;
     margin-top: 40px;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px #eeeeee;
 }
 .main .fee1 .last a{
     color: white;
@@ -181,20 +206,31 @@ img{
      padding: 20px;
      text-align: center;
      margin-left: -300px;
-    margin-top: 40px;
-    border-radius: 5px;
+     margin-top: 40px;
+     border-radius: 5px;
+     box-shadow: 5px 5px 10px #eeeeee;
  }
 .main .fee2 .last a{
     color: white;
 }
 .last{
     background-color: #f56331;
-    width: 150px;
+    width: 160px;
     height: 40px;
     padding-top: 20px;
     border-radius: 5px;
+    color: white;
+    position: absolute;
+    z-index: 2;
 }
-
+.last:hover{
+    transform: scale(1.05);
+    transition: 300ms;
+}
+.volunteer div:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
 .volunteer{
     color: white;
     margin-left: 8%;
@@ -203,6 +239,7 @@ img{
     position: absolute;
     z-index: 2;
 }
+
 .main .volunteer a{
     color: white;
 }
@@ -214,12 +251,164 @@ img{
     padding-top: 5px;
     border-radius: 7px;
 }
+.newsfeed{
+    background-color: white;
+    overflow: hidden;
+    float: left;
+    margin-top: -7px;
+}
+.newsfeed h1{
+    color: #f56331;
+    font-size: 50px;
+    padding-left: 40px;
+    font-weight: 900;
+}
+.n1{
+    float: left;
+    width: 60%;
+    padding-left: 40px;
+    box-shadow: 5px 5px 10px #eeeeee;
+}
+.n1 figcaption{
+    font-size: 30px;
+    padding-left: 20%;
+}
+.n1 p{
+    font-size: 20px;
+    text-align: center;
+}
+.n1 a figcaption{
+    color: #4d463d;
+}
+.n1 a img:hover,figcaption:hover{
+    transform: scale(1.05);
+    transition: 300ms;
+}
+.n1 a figcaption:hover{
+    color: #f56331;
+}
+.n2,.n3{
+    float: right;
+    width: 35%;
+    margin: 20px;
+    margin-top: -15px;
+    box-shadow: 5px 5px 10px #eeeeee;
+}
+
+.n2 figcaption{
+    font-size: 30px;
+    padding-left: 30%;
+}
+.n2 figcaption:hover{
+    transform: scale(1.05);
+    transition: 300ms;
+    color: #f56331;
+}
+.n2 img:hover{
+    transform: scale(1.05);
+    transition: 300ms;
+}
+.n2 a{
+    color: #4d463d;
+}
+
+.n3 figcaption{
+    font-size: 30px;
+    text-align: center;
+}
+.n3 figcaption:hover{
+    transform: scale(1.05);
+    transition: 300ms;
+    color: #f56331;
+}
+.n3 img:hover{
+    transform: scale(1.05);
+    transition: 300ms;
+}
+.n3 a{
+    color: #4d463d;
+}
+.question_and_contact{
+    width: 30%;
+    float: right;
+    background-color: transparent;
+    margin-top: -350px;
+    margin-left: 700px;
+    position: absolute;
+    z-index: 2;
+}
+.question_and_contact button:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+.question_and_contact #message{
+    float: left;
+    border-bottom: black 1px solid;
+    width: 350px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 7px 7px 0 0;
+    font-size: 20px;
+    text-indent: 10px;
+    background-color: #eeeeee;
+}
+.question_and_contact #name{
+    float: left;
+    border=bottom: black 1px solid;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 7px 7px 0 0;
+    font-size: 20px;
+    text-indent: 10px;
+    background-color: #eeeeee;
+}
+.question_and_contact #email{
+    float: left;
+    border-bottom: black 1px solid;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 7px 7px 0 0;
+    font-size: 20px;
+    text-indent: 10px;
+    background-color: #eeeeee;
+}
+#button{
+    background-color: #f56331;
+    color: white;
+    width: 110px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 220px;
+    margin-left: -230px;
+    border-radius: 7px;
+}
+.question{
+    color: white;
+    font-size: 50px;
+    margin-top: -640px;
+    margin-left: 620px;
+    position: absolute;
+    z-index: 2;
+}
+.forus{
+    color: #f56331;
+    font-size: 50px;
+    margin-top: -540px;
+    margin-left: 900px;
+    position: absolute;
+    z-index: 2;
+}
 
 /*-----------------------------------COPY TỪ ĐÂY----------------------------*/
 .footer{
     width: 100%;
     float: left;
     background-color: white;
+    margin-top: -6px;
 }
 .logo2{
     float: left;
