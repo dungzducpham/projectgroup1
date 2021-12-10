@@ -142,7 +142,7 @@ img{
 .app_form{
     float: right;
     width: 50%;
-    margin-top: 100px;
+    margin-top: 60px;
     padding-left: 200px;
 }
 .application{
@@ -169,6 +169,7 @@ img{
     width: 250px;
     text-indent: 10px;
     font-size: 18px;
+    color: white;
 }
 #email{
     background-color: #4d463d;
@@ -178,7 +179,9 @@ img{
     text-indent: 10px;
     font-size: 18px;
     margin-bottom: 15px;
+    color: white;
 }
+
 label{
     color: white;
     font-size: 24px;
@@ -206,7 +209,20 @@ label{
     width: 50%;
 }
 .ex4{
-    float: left;
+    float: right;
+    width: 50%;
+    margin-top: 40px;
+}
+#submit{
+    width: 80px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #f56331;
+    color: white;
+}
+.app_form button:hover{
+    transform: scale(1.1);
+    transition: 300ms;
 }
 
 
