@@ -25,8 +25,6 @@ body{
 }
 .news_layout {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .news_item {
     width: 350px;
@@ -45,11 +43,7 @@ body{
     width: 345px;
 }
 .font_color {
-    color: #ef5122;
-    font-weight: 700;
-}
-.font_news {
-    color: #ef5122;
+    color: white;
 }
 .img_nd_01 {
     width: 650px;
