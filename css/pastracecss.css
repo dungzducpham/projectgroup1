@@ -139,6 +139,10 @@ img{
     display: block;
     margin: 0 auto;
     height: 100%;
+    background-image: url("../images/backgroundre3.jpg");
+    background-repeat: repeat-y;
+    background-position: top center;
+    color: black;
 }
 
 .round1{
@@ -146,9 +150,11 @@ img{
     position: relative;
     width: 100%;
     height: 250px;
+    border-bottom: black dashed;
+}
+#round1v1{
     border-top: black dashed;
 }
-
 
 .anh{
     position: absolute;
@@ -166,17 +172,20 @@ img{
     width: 950px;
     padding-left: 30px;
 }
-/*
-img{
-    width: 180px;
-    height: 180px;
-    padding-top: 15px;
-    padding-left: 15px;
+a{
+    text-decoration: none;
 }
-*/
-
+.tdcolor{
+    color: #ef5122;
+    font-weight: 800;
+}
+.tdcolor:hover{
+    color: darkblue;
+}
+h1{
+    color: #ef5122;
+}
 .ptrace:hover{
-
     transition-delay: 0s;
     transition-duration: 1.5s;
     transition-property: all;
@@ -184,16 +193,15 @@ img{
     transform: scale(1.4);
 }
 h1{
-    color: #ef5122;
     padding-left: 30px;
     margin: 0;
     padding-top: 100px;
-    text-align: center;
+    text-align: left;
     font-size: 50px;
 }
 h2{
-    margin-bottom: 0px;
-    color: #292929;
+    margin-bottom: 0;
+    color: #ef5122;
     margin-top: 5px;
     font-size: 40px;
 }
@@ -211,10 +219,96 @@ p{
     padding: 10px 35px;
     color: #ffffff !important;
     border-radius: 5px;
-    background: #292929;
+    background: #ef5122;
     border: 1px solid #9B6A1D;
     transition: 0.4s;
 }
 .button:hover{
-    background: #ef5122;
+    background: #292929;
 }
+.lienhe{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+#questiona{
+    height: 100%;
+}
+.question_and_contact{
+    width: 30%;
+    float: right;
+    background-color: transparent;
+    margin-top: -350px;
+    margin-left: 700px;
+    position: absolute;
+    z-index: 2;
+}
+.question_and_contact button:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+.question_and_contact #message{
+    float: left;
+    border-bottom: black 1px solid;
+    width: 350px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 7px 7px 0 0;
+    font-size: 20px;
+    text-indent: 10px;
+    background-color: #eeeeee;
+}
+.question_and_contact #name{
+    float: left;
+    border=bottom: black 1px solid;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 7px 7px 0 0;
+    font-size: 20px;
+    text-indent: 10px;
+    background-color: #eeeeee;
+}
+.question_and_contact #email{
+    float: left;
+    border-bottom: black 1px solid;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 7px 7px 0 0;
+    font-size: 20px;
+    text-indent: 10px;
+    background-color: #eeeeee;
+}
+#bt{
+    background-color: #f56331;
+    color: white;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 220px;
+    margin-left: -230px;
+    border-radius: 7px;
+}
+
+.question{
+    color: white;
+    margin-top: -640px;
+    margin-left: 620px;
+    position: absolute;
+    z-index: 2;
+}
+h4{
+    font-size: 90px;
+}
+.forus{
+    color: #f56331;
+    font-size: 50px;
+    margin-top: -540px;
+    margin-left: 900px;
+    position: absolute;
+    z-index: 2;
+}
+
+
