@@ -90,6 +90,8 @@ img{
 }
 .intro_img{
     opacity: 0.6;
+    float: left;
+    width: 100%;
 }
 .main p:hover{
     transform: scale(1.1);
