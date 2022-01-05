@@ -88,8 +88,10 @@ img{
     position: relative;
     z-index: 1;
 }
-.main .intro_img{
-    height: 800px;
+.intro_img{
+    opacity: 0.6;
+    float: left;
+    width: 100%;
 }
 .main p:hover{
     transform: scale(1.1);
@@ -99,7 +101,7 @@ img{
     font-size: 60px;
     color: white;
     padding-left: 18%;
-    margin-top: -600px;
+    margin-top: -700px;
     float: left;
     position: absolute;
     z-index: 2;
@@ -354,7 +356,7 @@ img{
 }
 .question_and_contact #name{
     float: left;
-    border=bottom: black 1px solid;
+    border-bottom: black 1px solid;
     width: 350px;
     height: 40px;
     margin-top: 20px;
