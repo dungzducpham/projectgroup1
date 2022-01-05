@@ -201,7 +201,7 @@ h1{
 }
 h5{
     margin-bottom: 0;
-    color: #ef5122;
+    color: snow;
     margin-top: 5px;
     font-size: 40px;
 }
@@ -209,6 +209,7 @@ h5{
 p{
     font-size: 30px;
     margin-top: -15px;
+    color: white;
 }
 
 .button{
@@ -224,7 +225,7 @@ p{
     transition: 0.4s;
 }
 .button:hover{
-    background: #292929;
+    background: darkblue;
 }
 .lienhe{
     margin-left: auto;
@@ -260,7 +261,7 @@ p{
 }
 .question_and_contact #name{
     float: left;
-    border=bottom: black 1px solid;
+    border-bottom: black 1px solid;
     width: 350px;
     height: 40px;
     margin-top: 20px;
