@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>About</title>
@@ -64,33 +64,48 @@
             theoretical aspects including racing tactics and strategies will be introduced and refined.
             Youth team members will receive the coaching, equipment, and logistical support needed
             to achieve success in competitive dinghy sailing.</span></br>
-            <img src="images/raceteam.jpg" alt="race team" width="600"/>
+            <img class="team-img" src="images/raceteam.jpg" alt="race team" width="600"/>
         </div>
     </div>
     <div id="contact" class="section">
         <div class="main container">
             <div id="info">
-                <div class="address">
-                    <p>address</p>
-                    <span>8A Ton That Thuyet, My Dinh, HANOI</span>
-                </div>
-                <div class="phone">
-                    <p>phone</p>
-                    <span>024-7300-8855</span>
-                </div>
-                <div class="email">
-                    <p>Email</p>
-                    <span>aptechrace@gmail.com</span>
+                <div>
+                    <h4 class="main-info">address</h4>
+                    <p class="main-info-detail">8A Ton That Thuyet, My Dinh, HANOI</p>
+                </div></br>
+
+                <div>
+                    <h4 class="main-info">phone</h4>
+                    <p class="main-info-detail">024-7300-8855</p>
+                </div></br>
+
+                <div>
+                    <h4 class="main-info">Email</h4>
+                    <p class="main-info-detail">aptechrace@gmail.com</p>
                 </div>
             </div>
             <div id="sharing">
                 <h3 class="tit">contact us</h3>
                 <form method="get" action="#" class="sharing-box">
-                    <input type="text" name="fullname" placeholder="Full name" required/>
-                    </br>
-                    <input type="email" name="emailabc" placeholder="Enter Email" required/>
-                    </br>
-                    <input type="text" name="message" placeholder="Your message" required/>
+                    <div>
+                        <div class="name-email">
+                            <input class="name-email" type="text" name="fullname" placeholder="Full name" required/>
+                            </br>
+                            <input class="name-email" type="email" name="emailabc" placeholder="Enter Email" required/>
+                            </br>
+                        </div>
+                        <div class="message">
+                            <input class="message" type="text" name="message" placeholder="Your message" required/>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="confirm" value="confirm">
+                        <label for="confirm">By using this form you agree with the storage and handling of your data by this website.</label><br>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="SUBMIT"/>
+                    </div>
                 </form>
             </div>
         </div>
