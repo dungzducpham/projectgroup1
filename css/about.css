@@ -103,7 +103,6 @@ img{
     color: white;
     position: absolute;
     margin-top: 70px;
-    /*font-weight: 600px;*/
     text-transform: uppercase;
 }
 .heading-primary_sub{
@@ -122,11 +121,9 @@ img{
 .heading-primary_sub a:hover{
     color: #F56331FF;
 }
-/*#container{*/
-/*    width: 1200px;*/
-/*    letter-spacing: 1px;*/
-/*    font-size: 20px;*/
-/*}*/
+#contact{
+    margin-top: 45px;
+}
 .team-intro{
     width: 1200px;
     letter-spacing: 1px;
@@ -154,8 +151,29 @@ img{
     font-size: 70px;
     line-height: 80px;
 }
+.team-img{
+    margin-top: 45px;
+}
 #info{
     float: left;
+}
+.main-info{
+    font-weight: 300px;
+    font-size: 25px;
+    color: #867c6b;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: #867c6b;
+    text-transform: uppercase;
+    box-sizing: content-box;
+    padding-bottom: 5px;
+}
+.main-info-detail{
+    color: #F56331FF;
+    font-size: 25px;
+    box-sizing: content-box;
+    padding-bottom: 5px;
+
 }
 #sharing{
     float: right;
@@ -164,6 +182,50 @@ img{
     background-color: #272420;
     box-sizing: border-box;
     padding: 100px;
+}
+.tit{
+    font-size: 70px;
+    color: #F56331FF;
+    margin: 0;
+}
+.name-email{
+    color: white;
+    float: left;
+    width: 225px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 5px;
+}
+input{
+    margin-bottom: 10px;
+    background-color: #867c6b;
+}
+.message{
+    color: white;
+    float: right;
+    width: 225px;
+    height: 110px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.checkbox{
+    color: white;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
+}
+.submit{
+    color: white;
+    background-color: #F56331FF;
+    float: left;
+    padding: 7.5px 12.5px;
+    margin: 0 0 0 5px;
+    line-height: 16px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
 }
 /*----Footer----*/
 .footer{
@@ -179,7 +241,6 @@ img{
 }
 .address{
     float: left;
-    font-size: 25px;
 }
 .more_info{
     float: right;
