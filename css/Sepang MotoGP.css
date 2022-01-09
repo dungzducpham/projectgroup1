@@ -302,10 +302,11 @@ video{
     margin-bottom: 10px;
 }
 .time {
+    width: 300px;
     background-color: chocolate;
     color: white;
-    margin-left: 750px;
-    margin-right: 750px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url("../images/timebackground.png");
     background-repeat: no-repeat;
     background-position: center;
