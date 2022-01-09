@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Teko', 'Monseratt', sans-serif;
+    font-family: 'Teko', sans-serif;
     line-height: 1.25;
     border: 0;
     background-color: #ffffff;
-    font-size: 16px;
     margin: 0;
-    font-weight: normal;
+    font-weight: 100;
 }
 a{
     text-decoration: none;
@@ -26,11 +25,14 @@ img{
     float: none;
     width: 1200px;
     margin: 0 auto;
+    font-family: 'Teko', sans-serif;
+    font-weight: 100;
 }
 .header{
     border-bottom: 1px solid #eeeeee;
     height: 140px;
     background-color: white;
+    font-weight: 100;
 }
 .logo{
     width: 35%;
@@ -97,6 +99,7 @@ img{
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
+    letter-spacing: 1px;
 }
 .heading-primary_main{
     font-size: 80px;
@@ -229,7 +232,6 @@ input{
 }
 /*----Footer----*/
 .footer{
-    margin-top: 50px;
     width: 100%;
     float: left;
     background-color: white;
@@ -241,9 +243,10 @@ input{
 }
 .address{
     float: left;
+    font-size: 25px;
 }
 .more_info{
-    float: right;
+    float: left;
     font-size: 18px;
     margin-left: 120px;
     text-align: center;
