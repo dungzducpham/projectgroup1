@@ -189,32 +189,43 @@ img{
     margin: 0;
 }
 .name-email{
+    color: white;
     float: left;
     width: 225px;
     height: 50px;
     box-sizing: border-box;
+    padding: 10px 10px 10px 5px;
 }
 input{
     margin-bottom: 10px;
     background-color: #867c6b;
 }
 .message{
+    color: white;
     float: right;
     width: 225px;
     height: 110px;
+    box-sizing: border-box;
+    padding: 10px;
 }
 .checkbox{
     color: white;
     float: left;
     margin-top: 25px;
+    margin-bottom: 10px;
     font-family: Calibri, sans-serif;
+    font-size: 13px;
 }
 .submit{
     color: white;
-    background-color: #867c6b;
-    padding: 16px 32px;
+    background-color: #F56331FF;
     float: left;
-    margin-top: 25px;
+    padding: 7.5px 12.5px;
+    margin: 0 0 0 5px;
+    line-height: 16px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
 }
 /*----Footer----*/
 .footer{
